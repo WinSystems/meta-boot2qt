@@ -34,7 +34,7 @@ COMPATIBLE_HOST = "i686.*-mingw.*"
 SRC_URI = "\
     https://download.qt.io/development_releases/prebuilt/python/Python35-win-x86.7z \
     https://www.python.org/ftp/python/${PV}/python-${PV}-embed-win32.zip;name=bin \
-    https://download.qt.io/development_releases/prebuilt/python/python-${PV}-modules-win32.zip;name=modules \
+    https://ftp1.nluug.nl/languages/qt/development_releases/prebuilt/python/python-3.5.2-modules-win32.zip;name=modules \
     "
 
 SRC_URI[md5sum] = "3da266445a4e6a93ff1949810141da8f"
